@@ -1,0 +1,157 @@
+
+
+
+* {
+    font-family: 'Courgette', cursive;   
+}
+
+body {
+   
+     background-image: url("golden\ bg.jpg");
+     background-size: 100% ;
+      background-repeat: no-repeat;       
+}
+
+h1 {
+    border-radius: 9px;
+    color: rgb(67, 7, 80);
+    text-align: center;
+    padding: 5px 0 8px 0;
+}
+
+form h2 {
+    font-size: 25;
+    color: rgb(249, 240, 248);
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    border: solid 2px none;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    
+}
+
+p {
+    font-weight: 1000;
+}
+
+.main {
+    display: flex;
+    
+}
+
+form {
+    border: 1px solid rgba(243, 238, 238, 0.892);
+    border-radius: 20px;
+    box-shadow: 2px,2px,15px rgba(0,0,0,0.3);color: #fff;
+     background-color: rgb(0,0,0,0.5);
+    justify-content: center;
+    text-align: center;
+    height: 490px;
+    
+    padding: 8px;
+    margin-left: 50px;
+}
+
+form div {
+    margin: 5px 0 12px 0;
+    font-size: 18px;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+
+}
+
+form div .inp {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 5px rgb(0,0,0,0.3);
+    width: 550px;
+    padding: 6px ;
+    font-size: 15px;
+    text-align: left;
+    
+}
+
+.button {
+    background:rgb(225, 117, 81) ;
+    background:linear-gradient(135deg, #e3c586, #804173); 
+    
+    padding: 8px;
+    border-radius: 10px;
+    color: #fff;
+    width: 45%;
+    border: 1px solid rgba(255, 255, 255,0.3);
+    box-shadow:1px 1px 5px rgb(0,0,0,0.3);
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn input{
+    background:rgb(225, 117, 81) ;
+    background:linear-gradient(135deg, #e3c586, #804173); 
+    
+    padding: 8px;
+    border-radius: 10px;
+    color: #fff;
+    width: 45%;
+    border: 1px solid rgba(255, 255, 255,0.3);
+    box-shadow:1px 1px 5px rgb(0,0,0,0.3);
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.card {
+    box-shadow: 2px,2px,15px rgba(0,0,0,0.3);color: #fff;
+     background-color: rgb(0,0,0,0.5);
+      width:420px;
+    border-radius: 20px;
+     text-align: center;
+    height: 180px;
+    display: flex;
+   align-items: center;
+   justify-content: space-between; 
+   padding: 3% 8%;
+   border: 1px solid;
+   margin-bottom: 2rem;
+  font-size: large;
+
+}
+
+.h-enrol {
+    color: rgb(67, 7, 80);
+    width: 500px;
+    
+}
+.p {
+    width: 90%;
+    padding: 8px;
+    bottom: 5px;
+    margin-left: 5px;
+    text-align:center;
+    color: #fff;
+}
+
+.p {
+    color: #160e16;
+    font-size: large;
+}
+
+.gender{
+text-align: left;
+bottom: 5px;
+}
+
+.skills{
+    text-align: left;
+}
+#inp{
+    text-align: left;
+}
